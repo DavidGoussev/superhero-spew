@@ -1,4 +1,4 @@
-COMBO
+SUPERHERO-SPEW
 ---------------
   A test app integrating stateless Ruby API using the rails-api gem, with a React client side app.
 
@@ -25,3 +25,7 @@ COMBO
 * run `npm run devserve` in concurrent terminal tab (for React clientside app)
 
 * access `localhost:8080` for react clientside app, served by stateless runtime Rails backend API.
+
+coded by David Goussev, <a href="http://www.github.com/dpg5000">github:dpg5000</a>
+
+[MIT License, available here](license.md)

@@ -17,7 +17,7 @@ module.exports = React.createClass({
 
     helpers.getMarvelInfo(this.getParams().username)
       .then(function (dataObj) {
-        console.log(dataObj);
+      
 
         var firstResult = dataObj.bios.data.results[0]
 
@@ -56,7 +56,7 @@ module.exports = React.createClass({
     var username = this.getParams().username;
 
     var bios = this.state.bios;
-    
+
 
     var marvelBios = function(){
       if (!bios.data){
